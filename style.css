@@ -1,0 +1,247 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    border-style:hidden;
+    border-radius: 5px;
+    background-color: rgb(240, 246, 246);
+    padding: 10px;
+    border-width: 1px;
+}
+
+nav ul{
+    padding: 0px 20px;
+    list-style: none;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.691);
+    padding: 0px 13px;
+}
+
+.logo img{
+    height: 17px;
+    padding: 5px 0px;
+}
+.nav-icons img{
+    height: 15px;
+    padding: 8px 15px;
+}
+
+.header{
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    background-color: rgba(0, 0, 0, 0.916);
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 300;
+    color: white;
+}
+
+.header :nth-child(2){
+    color: rgba(18, 18, 247, 0.941);
+    text-decoration: none;
+}
+
+.trailer video{
+    background-color: bisque;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.products{
+    margin-top: 30px;
+    background-color: rgb(240, 246, 246);
+    padding-top: 30px;
+    height: 50vh;
+}
+
+.info1{
+    display: flex;
+    line-height: 1.5em;
+    justify-content: space-evenly;
+}
+
+.info1 > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight:900;
+}
+
+.info1Child a{
+    color: blue;
+}
+
+.info1Child > img{
+    display: block;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.info2{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+}
+.info2 img{
+    height: 80px;
+}
+
+.info2 div > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: 400;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.card-start p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    text-align: center;
+    padding: 40px 0px 50px 0px;
+}
+
+.cards{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.card-style{
+    text-align: center;
+    width: 370px;
+    font-family: 'Poppins', sans-serif;
+
+    border-radius: 5%;
+    /* border-style: solid;
+    border-width: 2px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .2s;
+    /* z-index: 2; */
+}
+
+.card-style :first-child{
+    padding: 10px 0px 20px 0px;
+}
+
+.card-style h2{
+    padding: 0px 0px 10px 0px;
+}
+
+.card-style :nth-child(3){
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-style img{
+    padding: 10px 0px 40px 0px;
+    width: 250px;
+}
+
+.card-style:hover{
+    transform: scale(1.1);
+}
+
+.events{
+    text-align: center;
+    background-color: black;
+}
+
+.events p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 30px 0px 30px 0px;
+}
+
+.event-images :first-child{
+    width: 200px;
+}
+
+.event-images :last-child{
+    width: 500px;
+}
+
+.event-images{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.iphone14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.iphone14 img{
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.iphone14 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-right: 100px;
+}
+
+footer{
+    background-color: rgba(244, 235, 235, 0.989);
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+.logo img{
+    width: 20px;
+    padding-right: 20px;
+}
+footer .logo{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 20px 80px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer p{
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+}
